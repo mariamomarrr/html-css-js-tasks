@@ -1,0 +1,2109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metro - Elementor Multipurpose</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row bg-white align-items-center">
+
+            <div class="col-2">
+                <nav class="navbar">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo.jpeg" alt="logo" class="img-fluid">
+                        </a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-3">
+                <nav class="navbar">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="fa-solid fa-phone" style="color: black; font-size:30px;"></i>
+
+                                <span>
+                                    contact us 24/7
+                                    <br>
+                                    (+92) 39427879
+                                </span>
+
+                            </div>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-3">
+                <div class="btn-group" role="group">
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDrop1" type="button" class="btn btn-light dropdown-toggle border"
+                            data-bs-toggle="dropdown">
+                            All Categories
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li><a class="dropdown-item" href="#">All Categories</a></li>
+                            <li><a class="dropdown-item" href="#">Accessories</a></li>
+                            <li><a class="dropdown-item" href="#">Car Care</a></li>
+                            <li><a class="dropdown-item" href="#">Car Electronics</a></li>
+                            <li><a class="dropdown-item" href="#">Equipments</a></li>
+                            <li><a class="dropdown-item" href="#">lights</a></li>
+                            <li><a class="dropdown-item" href="#">oils & fluids</a></li>
+                            <li><a class="dropdown-item" href="#">tires</a></li>
+                        </ul>
+                        </ul>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search for product"
+                        style="height:45px; width:200px;">
+                    <button class="btn btn-dark" type="button">
+                        <i class="fa-solid fa-magnifying-glass text-white"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-4 d-flex justify-content-center align-items-center gap-3">
+
+                <li class="nav-item dropdown list-unstyled">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        style="color: black;">
+                        <img src="images/unitedstate-flag.jpeg" style="width: 20px;"> English
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#"><img src="images/espanol.jpeg"
+                                    style="width: 20px;">Espanol</a></li>
+                        <li><a class="dropdown-item" href="#"><img src="images/francais.jpeg"
+                                    style="width: 19px;">Francais</a></li>
+                        <li><a class="dropdown-item" href="#"><img src="images/portugues.jpeg"
+                                    style="width: 20px;">Portugues</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown list-unstyled">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        style="color: black;"> USD </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">EUR</a></li>
+                        <li><a class="dropdown-item" href="#">BRL</a></li>
+                    </ul>
+                </li>
+
+                <div class="d-flex gap-3 align-items-center">
+                    <div class="position-relative d-inline-block">
+                        <a href="#" style="color: black; text-decoration: none;">
+                            <i class="fa-regular fa-user"></i> <span class="small">Account</span>
+                        </a>
+                    </div>
+
+                    <div class="position-relative d-inline-block">
+                        <a href="#" style="color: black;"> <i class="fa-regular fa-heart"></i></a>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                            style="font-size: 10px;">
+                            0
+                        </span>
+                    </div>
+
+                    <div class="position-relative d-inline-block">
+                        <a href="#" style="color: black;"> <i class="fa-solid fa-cart-shopping"></i></a>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                            style="font-size: 10px;">
+                            0
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+
+
+
+
+
+
+
+    <nav class="navbar navbar-expand-lg bg-white border-bottom">
+        <div class="container-fluid">
+
+            <button class="btn btn-light border d-flex align-items-center" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#sidebar" aria-controls="sidebar">
+                <span class="navbar-toggler-icon me-2"></span>
+                SHOP BY CATEGORIES
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center">
+                <ul class="navbar-nav gap-3 align-items-center">
+
+                    <li class="nav-item dropdown has-megamenu position-static">
+                        <a class="nav-link dropdown-toggle text-danger" href="#" data-bs-toggle="dropdown">
+                            Homepages
+                        </a>
+
+                        <div class="dropdown-menu w-100 shadow-sm border-0 p-4">
+                            <div class="container">
+                                <div class="row g-4 justify-content-center">
+
+                                    <div class="col-md-3 text-center">
+                                        <a href="#" class="text-decoration-none text-dark">
+                                            <img src="images/supermarket 1 .png"
+                                                class="img-fluid rounded border mb-2 shadow-sm product-img">
+
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-3 text-center">
+                                        <a href="#" class="text-decoration-none text-dark">
+                                            <img src="images/supermarket 2.png"
+                                                class="img-fluid rounded border mb-2 shadow-sm product-img">
+
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-3 text-center">
+                                        <a href="#" class="text-decoration-none text-dark">
+                                            <img src="images/furniture.png"
+                                                class="img-fluid rounded border mb-2 shadow-sm product-img">
+
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-3 text-center">
+                                        <a href="#" class="text-decoration-none text-dark">
+                                            <img src="images/electrons.png"
+                                                class="img-fluid rounded border mb-2 shadow-sm product-img">
+
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-3 text-center">
+                                        <a href="#" class="text-decoration-none text-dark">
+                                            <img src="images/autopart.png"
+                                                class="img-fluid rounded border mb-2 shadow-sm product-img">
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-3 text-center">
+                                        <a href="#" class="text-decoration-none text-dark">
+                                            <img src="images/cosmatic.png"
+                                                class="img-fluid rounded border mb-2 shadow-sm product-img">
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    <li class="nav-item dropdown width-70 has-megamenu position-static">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Categories
+                        </a>
+                        <div class="dropdown-menu w-100 shadow-sm border-0 p-4">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold ">SHOP LAYOUTS</h6>
+                                        <ul class="list-unstyled">
+                                            <li class="mt-3 mb-3"><a class=" px-0" href="#">Top Categories - Style
+                                                    1</a>
+                                            </li>
+                                            <li class="mb-3"><a class=" px-0" href="#">Top Categories - Style 2</a>
+                                            </li>
+                                            <li class="mb-3"><a class=" px-0" href="#">Top Brands</a></li>
+                                            <li class="mb-3"><a class=" px-0" href="#">List Layout</a></li>
+                                            <li class="mb-3"><a class=" px-0" href="#">Collapse scroll</a>
+                                            </li>
+                                            <li class="mb-3"><a class=" px-0" href="#">Filter Sidebar</a></li>
+                                            <li class="mb-3"><a class=" px-0" href="#">Top Banner</a></li>
+                                            <li class="mb-3"><a class=" px-0" href="#">Botton Banner</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold">SHOP FEATURES</h6>
+                                        <ul class="list-unstyled">
+                                            <li class="mb-3"><a class=" px-0" href="#"><a>Load
+                                                        More Botton</a></li>
+                                            <li class="mb-3"><a class=" px-0" href="#"> Infinity
+                                                    Scroll</a></li>
+                                            <li class="mb-3"><a class=" px-0" href="#">Ajax
+                                                    Pagination</a></li>
+                                            <li class="mb-3"><a class=" px-0" href="#"> Supermarket</a>
+                                            </li>
+                                            <li class="mb-3"><a class=" px-0" href="#">Furniture</a>
+                                            </li>
+                                            <li class="mb-3"><a class=" px-0" href="#">Electronics</a>
+                                            </li>
+                                            <li class="mb-3"><a class=" px-0" href="#"> Autopart</a>
+                                            </li>
+                                            <li class="mb-3"><a class=" px-0" href="#">Cosmatic</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="images/categories photo.png" class="img-fluid rounded" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                    </li>
+
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu p-3 custom-dropdown">
+                            <li><a href="#">Simple Product</a></li>
+                            <li><a href="#">Variable - Label Attribute</a></li>
+                            <li><a href="#">Variable - Drowndown Attribute</a></li>
+                            <li><a href="#">Variable - Color Swatch</a></li>
+                            <li><a href="#">Variable - Variation Thumbnail</a></li>
+                            <li><a href="#">Group product</a></li>
+                            <li><a href="#">External proudact</a></li>
+                            <li><a href="#">Vertical Thumbnail</a></li>
+                            <li><a href="#">Horizontal Thumbnail</a></li>
+                            <li><a href="#">Summary Scrolling</a></li>
+                            <li><a href="#">Flash Sales</a></li>
+                            <li><a href="#">Video + 360 degree</a></li>
+
+                        </ul>
+                    </li>
+
+
+
+
+
+                    <li class="nav-item dropdown  position-static">
+                        <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown">
+                            Pages
+                        </a>
+                        <div class="dropdown-menu w-100  border-0 p-4">
+                            <div class="container-fluid">
+                                <div class="row">
+
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold mb-3">HOMEPAGES</h6>
+                                        <ul class="list-unstyled mb-4">
+                                            <li class="mb-2"><a href="#">Home Supermarket 01</a></li>
+                                            <li class="mb-2"><a href="#">Home Supermarket 02</a></li>
+                                            <li class="mb-2"><a href="#">Home Furniture</a></li>
+                                            <li class="mb-2"><a href="#">Home Electronic</a></li>
+                                            <li class="mb-2"><a href="#">Home Autopart</a></li>
+                                            <li class="mb-2"><a href="#">Home Cosmetic</a></li>
+                                        </ul>
+                                        <h6 class="fw-bold mb-3">OTHER PAGES</h6>
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><a href="#">Blog</a></li>
+                                            <li class="mb-2"><a href="#">About us</a></li>
+                                            <li class="mb-2"><a href="#">Contact us</a></li>
+                                            <li class="mb-2"><a href="#">Coming soon</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold mb-3 text-uppercase">Supermarket - Shop</h6>
+                                        <ul class="list-unstyled mb-4">
+                                            <li class="mb-2"><a href="#">Top Categories-style 1</a></li>
+                                            <li class="mb-2"><a href="#">Top Categories-style 2</a></li>
+                                            <li class="mb-2"><a href="#">Top Brand</a></li>
+                                            <li class="mb-2"><a href="#">Shop-list</a></li>
+                                            <li class="mb-2"><a href="#">Shop-scroll</a></li>
+                                        </ul>
+                                        <h6 class="fw-bold mb-3 text-uppercase">Furniture - Shop</h6>
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><a href="#">Top Categories-style 1</a></li>
+                                            <li class="mb-2"><a href="#">Top Categories-style 2</a></li>
+                                            <li class="mb-2"><a href="#">Top Brand</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold mb-3 text-uppercase">Electronic-Shop</h6>
+                                        <ul class="list-unstyled mb-4">
+                                            <li class="mb-2">
+                                                <a href="#">Top Categories-style 1</a>
+                                            </li>
+                                            <li class="mb-2">
+                                                <a href="#">Top Brand</a>
+                                            </li>
+                                        </ul>
+                                        <h6 class="fw-bold mb-3 text-uppercase">Automotive-Shop</h6>
+                                        <ul class="list-unstyled mb-4">
+                                            <li class="mb-2">
+                                                <a href="#">Top Categories-style 1</a>
+                                            </li>
+                                            <li class="mb-2"><a href="#">Top Categories-style 2</a></li>
+                                            <li class="mb-2"><a href="#">Top Brand</a></li>
+                                        </ul>
+                                        <h6 class="fw-bold mb-3 text-uppercase">Cosmetics-Shop</h6>
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><a href="#">Top Categories-style 1</a></li>
+                                            <li class="mb-2"><a href="#">Top Categories-style 2</a></li>
+                                            <li class="mb-2"><a href="#">Top Brand</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <h6 class="fw-bold mb-3 text-uppercase">Product Pages</h6>
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><a href="#">Simple product</a></li>
+                                            <li class="mb-2"><a href="#">Variable-Label Attribute</a></li>
+                                            <li class="mb-2"><a href="#">Variable-Dropdown Attribute</a></li>
+                                            <li class="mb-2"><a href="#">Variable-Color Swatch</a></li>
+                                            <li class="mb-2"><a href="#">Variable-Variation Thumbnail</a></li>
+                                            <li class="mb-2"><a href="#">Group product</a></li>
+                                            <li class="mb-2"><a href="#">External product</a></li>
+                                            <li class="mb-2"><a href="#">Vertical thumbnail</a></li>
+                                            <li class="mb-2"><a href="#">Horizontal thumbnail</a></li>
+                                            <li class="mb-2"><a href="#">Summary Scrolling</a></li>
+                                            <li class="mb-2"><a href="#">Flash Sale</a></li>
+                                            <li class="mb-2"><a href="#">Video +360 degree</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="images/badge 1.jpeg" width="20px"> Best Discount
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+
+
+
+
+
+            <li class="nav-item dropdown position-static list-unstyled">
+                <a class="nav-link dropdown-toggle recently-link" href="#" data-bs-toggle="dropdown">
+                    Recently viewed
+                </a>
+
+                <div class="dropdown-menu w-100 shadow-sm border-0 p-0 start-0 end-0">
+                    <div class="container-fluid px-0">
+                        <div class="row row-cols-6 g-0">
+
+                            <div class="col">
+                                <div class="product-card text-center border-end h-100 ">
+                                    <div class="img-wrapper position-relative overflow-hidden">
+                                        <span
+                                            class="position-absolute top-0 start-0 bg-danger text-white small px-2 py-1 m-2 rounded"
+                                            style="z-index: 1;">-37%</span>
+                                        <img src="images/cosmetics-33-300x300.jpg" class="img-fluid w-100 p-4">
+                                    </div>
+                                    <div class="p-3 text-start">
+                                        <h6 class="small fw-bold mb-1">Translucent compact <br>face powder</h6>
+                                        <div>
+                                            <span class="small">$9</span>
+                                            <del class="text-muted small">$35</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div
+                                    class="product-card text-center border-end h-100 d-flex flex-column justify-content-between">
+                                    <div class="img-wrapper position-relative overflow-hidden">
+
+                                        <img src="images/automotive-13-300x300.jpg" class="img-fluid w-100 p-4">
+                                    </div>
+                                    <div class="p-3 text-start">
+                                        <h6 class="small fw-bold mb-1">High-performence<br> Carbon Fiber Wheels</h6>
+                                        <div>
+                                            <span class="small">$499</span>
+                                            <del class="text-muted small">$14</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div
+                                    class="product-card text-center border-end h-100 d-flex flex-column justify-content-between">
+                                    <div class="img-wrapper position-relative overflow-hidden">
+                                        <span
+                                            class="position-absolute top-0 start-0 bg-danger text-white small px-2 py-1 m-2 rounded"
+                                            style="z-index: 1;">-17%</span>
+                                        <img src="images/electronic-30-6-300x300.jpg" class="img-fluid w-100 p-4">
+                                    </div>
+                                    <div class="p-3 text-start">
+                                        <h6 class="small fw-bold mb-1">Labtop Asus VivoBook 15 <br>1335U, 8GB RAM...
+                                        </h6>
+                                        <div>
+                                            <span class="small">$999</span>
+                                            <del class="text-muted small">$1,536</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div
+                                    class="product-card text-center border-end h-100 d-flex flex-column justify-content-between">
+                                    <div class="img-wrapper position-relative overflow-hidden">
+                                        <span
+                                            class="position-absolute top-0 start-0 bg-danger text-white small px-2 py-1 m-2 rounded"
+                                            style="z-index: 1;">-35%</span>
+                                        <img src="images/cosmetics-40-1-300x300.jpg" class="img-fluid w-100 p-4">
+                                    </div>
+                                    <div class="p-3 text-start">
+                                        <h6 class="small fw-bold mb-1">Allura lumerience intense<br> Lipstick 0.15z</h6>
+                                        <div>
+                                            <span class="small">$20</span>
+                                            <del class="text-muted small">$24</del>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div
+                                    class="product-card text-center border-end h-100 d-flex flex-column justify-content-between">
+                                    <div class="img-wrapper position-relative overflow-hidden">
+                                        <span
+                                            class="position-absolute top-0 start-0 bg-danger text-white small px-2 py-1 m-2 rounded"
+                                            style="z-index: 1;">-17%</span>
+                                        <img src="images/fashion-6-300x300.jpg" class="img-fluid w-100 p-4">
+                                    </div>
+                                    <div class="p-3 text-start">
+                                        <h6 class="small fw-bold mb-1">Av Woman Leather <br> danim Mini Skirt</h6>
+                                        <div>
+                                            <span class="small">$1,390</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div
+                                    class="product-card text-center border-end h-100 d-flex flex-column justify-content-between">
+                                    <div class="img-wrapper position-relative overflow-hidden">
+
+                                        <img src="images/cosmetic-23-300x300.jpg" class="img-fluid w-100 p-4">
+                                    </div>
+                                    <div class="p-3 text-start">
+                                        <h6 class="small fw-bold mb-1">Av Woman Leather <br> danim Mini Skirt</h6>
+                                        <div>
+                                            <span class="small">$1,390</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar">
+
+        <div class="offcanvas-header bg-dark text-white">
+            <h5 class="offcanvas-title">SHOP BY CATEGORIES</h5>
+
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas">
+            </button>
+        </div>
+
+        <div class="offcanvas-body p-0 position-relative">
+
+            <ul class="list-unstyled m-0">
+
+                <li class="fashion-item">
+
+                    <a href="#"
+                        class="text-dark d-flex justify-content-between align-items-center py-1 px-3 text-decoration-none border-bottom small">
+
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-shirt"></i>
+                            <span>Fashion</span>
+                        </div>
+
+                        <span>></span>
+
+                    </a>
+
+                </li>
+
+
+
+                </li>
+
+                <li>
+                    <a href="#"
+                        class="text-dark d-flex justify-content-between align-items-center py-1 px-3 text-decoration-none border-bottom small">
+
+                        <div class="d-flex align-items-center gap-2">
+                            <img src="images/5.png" width="30px">
+                            <span>Phone & Tablet</span>
+                        </div>
+
+                        <span>></span>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"
+                        class="text-dark d-flex justify-content-between align-items-center py-1 px-3 text-decoration-none border-bottom small">
+
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span> Laptop & Computer</span>
+                        </div>
+
+                        <span>></span>
+
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#"
+                        class="text-dark d-flex justify-content-between align-items-center py-1 px-3 text-decoration-none border-bottom small">
+
+                        <div class="d-flex align-items-center gap-2">
+                            <img src="images/6.png" width="30px">
+                            <span> TV, Audio-Video</span>
+                        </div>
+
+                        <span>></span>
+
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#"
+                        class="text-dark d-flex justify-content-between align-items-center py-1 px-3 text-decoration-none border-bottom small">
+
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fa-regular fa-camera"></i>
+                            <span> Camera & Photo</span>
+                        </div>
+
+                        <span>></span>
+
+                    </a>
+                </li>
+
+
+
+                <li>
+                    <a href="#"
+                        class="text-dark d-flex justify-content-between align-items-center py-1 px-3 text-decoration-none border-bottom small">
+
+                        <div class="d-flex align-items-center gap-2">
+                            <img src="images/7.png" width="30px">
+                            <span> Home & Decor</span>
+                        </div>
+
+                        <span>></span>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"
+                        class="text-dark d-flex justify-content-between align-items-center py-1 px-3 text-decoration-none border-bottom small">
+
+                        <div class="d-flex align-items-center gap-2">
+                            <img src="images/8.png" width="40px" class="pe-2">
+                            <span> Beauty & health</span>
+                        </div>
+
+                        <span>></span>
+
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#"
+                        class="text-dark d-flex justify-content-between align-items-center py-1 px-3 text-decoration-none border-bottom small">
+
+                        <div class="d-flex align-items-center gap-2">
+                            <img src="images/9.png" width="40px" class="pe-2">
+                            <span>Game & Accessories</span>
+                        </div>
+
+                        <span>></span>
+
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"
+                        class="text-dark d-flex justify-content-between align-items-center py-1 px-3 text-decoration-none border-bottom small">
+
+                        <div class="d-flex align-items-center gap-2">
+                            <img src="images/10.png" width="30px">
+                            <span> Autopart</span>
+                        </div>
+
+                        <span>></span>
+
+                    </a>
+                </li>
+
+
+
+
+
+            </ul>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 px-0">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0"
+                            class="active"></button>
+                        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+
+
+                        <div class="carousel-item active position-relative">
+                            <img src="images/slide1-demo1.jpg" class="d-block w-100 main-img " height="500px">
+
+                            <div class="position-absolute top-50 start-0 translate-middle-y p-5 text-start">
+                                <h5>limited offers*</h5>
+                                <h2 class="fw-bold">From Italia <br> sale 25% off <br> Armchairs!</h2>
+                                <button class="btn btn-light text-dark mt-2">Shop Now</button>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item position-relative">
+                            <img src="images/slide2-demo1.jpg" class="d-block w-100 main-img" height="500px">
+
+                            <div class="position-absolute top-50 start-0 translate-middle-y p-5 text-start">
+                                <h5>Up to 40% offer</h5>
+                                <h2 class="fw-bold">Body lotion <br> SPF lab 50+ <br> PA++++</h2>
+                                <button class="btn btn-light text-dark mt-2">Shop Now</button>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item position-relative">
+                            <img src="images/slide3-demo1.png" class="d-block w-100 main-img" height="500px"
+                                style="background-color: red;">
+
+                            <div class="position-absolute top-50 start-0 translate-middle-y p-5 text-start">
+                                <h5>New Arrival</h5>
+                                <h2 class="fw-bold">Summer Collection <br> 2026</h2>
+                                <button class="btn btn-light text-dark mt-2">Shop Now</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="col-lg-4 px-0">
+                <div class="d-flex flex-column" style="height: 500px;">
+
+                    <div class="h-50 position-relative overflow-hidden banner-container">
+                        <img src="images/banner1-demo1.jpg" class="w-100 h-100" style="object-fit: cover;">
+                        <div class="position-absolute top-50 start-0 translate-middle-y p-4">
+                            <p class="mb-1 text-uppercase"
+                                style="font-family: 'Fjalla One', sans-serif; font-size: 0.85rem;">Black Friday</p>
+                            <h2 class="fw-bold text-dark mb-1" style="line-height: 1.1;">Big Sale <br> Eyeshadow
+                            </h2>
+                            <p class="text-secondary small mb-3">Over +100 items</p>
+                            <button class="btn btn-outline-dark btn-sm px-3 rounded-0 fw-bold">SHOP NOW</button>
+                        </div>
+                    </div>
+
+                    <div class="h-50 position-relative overflow-hidden banner-container">
+                        <div class="position-absolute  m-3 bg-danger text-white rounded-circle d-flex align-items-center justify-content-center shadow"
+                            style="width: 60px; height: 60px; z-index: 2; font-weight: bold; 
+                                font-size: 1.2rem; top: -28px; left:360px;">
+                            $29
+                        </div>
+
+                        <img src="images/banner2-demo1.jpg" class="w-100 h-100" style="object-fit: cover;">
+
+                        <div class="position-absolute top-50 start-0 translate-middle-y p-4">
+                            <p class="mb-1 text-uppercase"
+                                style="font-family: 'Fjalla One', sans-serif; font-size: 0.85rem;">New Collection
+                            </p>
+                            <h2 class="fw-bold text-dark mb-1" style="line-height: 1.1;">Puffer Jacket <br> 30% off
+                            </h2>
+                            <p class="text-secondary small mb-3">Best jacket in year</p>
+                            <button class="btn btn-outline-dark btn-sm px-3 rounded-0 fw-bold">SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 h-50" style="background-color: #e9e9e9;">
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="container py-5">
+        <div class="d-flex justify-content-between align-items-center text-center">
+
+
+            <div class="d-flex align-items-center border-end pe-5 flex-grow-1 justify-content-center">
+
+                <i class="bi bi-truck fs-1 me-3 text-secondary"></i>
+
+                <div class="d-flex align-items-center text-start">
+
+                    <img src="images/1.jpeg" class="me-3" style="width:50px; height:50px; object-fit:cover;">
+
+                    <div>
+                        <h6 class="fw-bold mb-0">Fast, Free Shipping</h6>
+                        <small class="text-muted">On order over $50</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="d-flex align-items-center border-end pe-5 flex-grow-1 justify-content-center">
+
+                <i class="bi bi-truck fs-1 me-3 text-secondary"></i>
+
+                <div class="d-flex align-items-center text-start">
+
+                    <img src="images/2.jpeg" class="me-3" style="width:50px; height:50px; object-fit:cover;">
+
+                    <div>
+                        <h6 class="fw-bold mb-0">Next Day Delivery</h6>
+                        <small class="text-muted">Free- spend over $99</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="d-flex align-items-center border-end pe-5 flex-grow-1 justify-content-center">
+                <i class="bi bi-truck fs-1 me-3 text-secondary"></i>
+                <div class="d-flex align-items-center text-start">
+                    <img src="images/3.jpeg" class="me-3" style="width:50px; height:50px; object-fit:cover;">
+                    <div>
+                        <h6 class="fw-bold mb-0">Low Price Guarantee</h6>
+                        <small class="text-muted">We offer competitive prices</small>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="d-flex align-items-center  pe-5 flex-grow-1 justify-content-center">
+                <i class="bi bi-truck fs-1 me-3 text-secondary"></i>
+                <div class="d-flex align-items-center text-start">
+                    <img src="images/4.jpeg" class="me-3" style="width:50px; height:50px; object-fit:cover;">
+                    <div>
+                        <h6 class="fw-bold mb-0">Quality Guarantee</h6>
+                        <small class="text-muted">We offer competitive prices</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="container-fluid">
+            <div class="container mt-5 ">
+                <div
+                    class="border border-dark rounded-2 py-2 px-1 d-flex flex-wrap justify-content-center align-items-center text-center">
+                    <span class="me-1">Super discount for your <strong>first purchase</strong></span>
+                    <span class="text-danger fw-bold border-bottom border-danger mx-2"
+                        style="cursor: pointer;">COUPON25</span>
+                    <span>Use discount code in the checkout!</span>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between align-items-center mb-3 mt-5">
+                <div class="d-flex align-items-center gap-4">
+                    <h3 class="fw-bold mb-0">Flash Deals</h3>
+
+                    <div class="d-flex align-items-center">
+                        <span class="me-2 text-muted small">Ends in</span>
+                        <div class="d-flex gap-1 align-items-center">
+                            <div id="hours" class="bg-black text-white fw-bold rounded px-2 py-1">18</div>
+                            <span class="fw-bold">:</span>
+                            <div id="minutes" class="bg-black text-white fw-bold rounded px-2 py-1">05</div>
+                            <span class="fw-bold">:</span>
+                            <div id="seconds" class="bg-black text-white fw-bold rounded px-2 py-1">01</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <a href="#" class="text-dark text-decoration-underline small fw-bold">See All Products</a>
+                </div>
+            </div>
+
+            <div id="flashDealsCarousel" class="carousel slide border" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex">
+                            <div class="col-12 col-md-3 border-end p-3 position-relative">
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-3">-35%</span>
+                                <div class="text-center py-4">
+                                    <img src="images/electronic-30-6-300x300.jpg" class="img-fluid"
+                                        style="height: 150px; object-fit: contain;">
+                                </div>
+                                <a class="small mb-1 text-dark text-decoration-none">Labtop Asus VivoBook 15 <br>1335U,
+                                    8GB
+                                    RAM...</a>
+                                <br>
+                                <span class="fw-bold">$999</span>
+                                <del class="text-muted small">$1,536</del>
+                                <br>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star-half"></i>
+                            </div>
+
+                            <div class="col-12 col-md-3 border-end p-3 d-none d-md-block position-relative">
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-3">-6%</span>
+                                <div class="text-center py-4">
+                                    <img src="images/electronic-14-2-300x300.jpg" class="img-fluid"
+                                        style="height: 150px; object-fit: contain;">
+                                </div>
+                                <a class="small mb-1">Apple Watch Series 9 GPS <br> 45mm,Aluminium case with..</a>
+                                <br>
+                                <span class="fw-bold">$890</span>
+                                <del class="text-muted small">$950</del>
+                                <br>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star-half"></i>
+                            </div>
+
+                            <div class="col-12 col-md-3 border-end p-3 d-none d-md-block position-relative">
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-3">-8%</span>
+                                <div class="text-center py-4">
+                                    <img src="images/automotive-11-300x300.jpg" class="img-fluid"
+                                        style="height: 150px; object-fit: contain;">
+                                </div>
+                                <a class="small mb-1">TOOLS 34 Low Profile Hydraulic <br> Trolley</a>
+                                <br>
+                                <span class="fw-bold">$767</span>
+                                <del class="text-muted small">$837</del>
+                                <br>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+
+                            <div class="col-12 col-md-3 p-3 d-none d-md-block position-relative">
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-3">-33%</span>
+                                <div class="text-center py-4">
+                                    <img src="images/furniture-6-300x300.jpg" class="img-fluid"
+                                        style="height: 150px; object-fit: contain;">
+                                </div>
+                                <a class="small mb-1">14-inch Fashion Simplicity <br> Quality Wall Clock, Home Decor</a>
+                                <br>
+                                <span class="fw-bold">$50</span>
+                                <del class="text-muted small">$75</del>
+                                <br>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex">
+                            <div class="col-12 col-md-3 border-end p-3 text-start position-relative">
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-3">-37%</span>
+                                <img src="images/cosmetics-33-300x300.jpg" class="img-fluid d-block mx-auto"
+                                    style="height: 150px; object-fit: contain;">
+                                <br><br>
+                                <a>Translucent Compact Face <br> Powder - 03 Medium, 0.22 oz</a>
+                                <br>
+                                <span class="fw-bold">$9</span>
+                                <del class="text-muted small">$14</del>
+                                <br>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i><i
+                                    class="fa-regular fa-star"></i>
+                            </div>
+
+                            <div class="col-12 col-md-3 border-end p-3 text-start position-relative">
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-3">-17%</span>
+
+                                <img src="images/cosmetics-40-1-300x300.jpg" class="img-fluid d-block mx-auto"
+                                    style="height: 150px; object-fit: contain;">
+
+                                <br>
+                                <br>
+                                <a class="mt-2">Allure Luminous Intense Lipstack <br>0.15oz </a>
+                                <br>
+                                <span class="fw-bold">$20</span>
+                                <del class="text-muted small">$24</del>
+                                <br>
+
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+
+                            </div>
+
+                            <div class="col-12 col-md-3 border-end p-3 text-start position-relative">
+
+                                <img src="images/fashion-10-1-300x300.jpg" class="img-fluid d-block mx-auto"
+                                    style="height: 150px; object-fit: contain;">
+
+                                <br>
+                                <br>
+                                <a class="mt-2">Tonga on T-shirt Men,<br>
+                                    Woman short sleeves Tee</a>
+                                <br>
+
+                                <span class="fw-bold">$9</span>
+                                <del class="text-muted small">$14</del>
+                                <br>
+
+
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+
+
+                            <div class="col-12 col-md-3 border-end p-3 text-start position-relative">
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-3">-37%</span>
+
+                                <img src="images/cosmetic-2-300x300.jpg" class="img-fluid d-block mx-auto"
+                                    style="height: 150px; object-fit: contain;">
+
+                                <br>
+                                <br>
+                                <a class="mt-2">MakeUp Brushes Artisan Easel <br>
+                                    Elite Cosmatic</a>
+                                <br>
+                                <span class="fw-bold">$19</span> <del class="text-muted small">$30</del>
+                                <br>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#flashDealsCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#flashDealsCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="container-fluid mt-5">
+            <div class="row align-items-center g-3">
+
+                <div class="col-3">
+                    <div class="position-relative overflow-hidden rounded-3 shadow-sm">
+                        <div class="overflow-hidden rounded-4">
+                            <img src="images/banner3-mobile-demo1.jpg" class="w-100 h-100 object-fit-cover card-img-top"
+                                style="height:360px; object-fit:cover; transition:.4s;"
+                                onmouseover="this.style.transform='scale(1.06)'"
+                                onmouseout="this.style.transform='scale(1)'">
+                        </div>
+
+
+
+
+
+                        <div class="position-absolute bottom-0 start-0 p-4 text-white">
+                            <h4 class="fw-bold mb-0">SALE 10% OFF</h4>
+                            <h5 class="fw-light">TIRES MICHELIN</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="position-relative overflow-hidden rounded-3 shadow-sm">
+                        <div class="overflow-hidden rounded-4">
+                            <img src="images/banner4-demo1.jpg" class="w-100 h-100 object-fit-cover card-img-top"
+                                style="height:360px; object-fit:cover; transition:.4s;"
+                                onmouseover="this.style.transform='scale(1.06)'"
+                                onmouseout="this.style.transform='scale(1)'">
+                        </div>
+
+                        <div class="position-absolute top-0 start-50 translate-middle-x pt-5 text-center w-100">
+                            <span class="text-warning fw-bold small d-block mb-2">NEW COLLECTION</span>
+                            <h1 class="fw-bold text-dark display-5">Sofa Crafted in UK</h1>
+                            <a href="#" class="text-dark fw-bold text-decoration-underline mt-2 d-inline-block">Shop
+                                now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+
+                    <div class="position-relative overflow-hidden rounded-3 shadow-sm">
+                        <div class="overflow-hidden rounded-4">
+                            <img src="images/banner5-mobile-demo1.jpg" class="w-100 h-100 object-fit-cover card-img-top"
+                                style="height:360px; object-fit:cover; transition:.4s;"
+                                onmouseover="this.style.transform='scale(1.06)'"
+                                onmouseout="this.style.transform='scale(1)'">
+                        </div>
+
+                        <div
+                            class="position-absolute bottom-0 start-50 translate-middle-x pb-4 text-center text-white w-100">
+                            <h4 class="mb-0">Steals under $25</h4>
+                            <h2 class="fst-italic" style="font-family: cursive;">Beauty</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <nav class="navbar navbar-expand-lg mt-5">
+            <div class="container">
+                <p class="navbar-brand fw-bold">
+                    New arrivals
+                </p>
+
+                <ul class="navbar-nav flex-row gap-4 ms-auto">
+
+                    <li class="nav-item">
+                        <p class="nav-link text-dark text-decoration-underline fw-semibold">
+                            Fashion
+                        </p>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="#">
+                            Phone&Tables
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="#">
+                            Home&Decor
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="#">
+                            Beauty&Health
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-semibold" href="#">
+                            see all products
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+
+
+
+
+        <div class="container mt-4 border-top border-start">
+            <div class="row row-cols-1 row-cols-md-3 g-0">
+
+                <div class="col border-end border-bottom p-4">
+                    <div class="d-flex align-items-center">
+                        <div class="position-relative">
+                            <span class="badge bg-danger position-absolute top-0 start-0 m-1"
+                                style="font-size: 10px;">HOT</span>
+                            <img src="images/fashion-5-300x300.jpg" class="img-fluid"
+                                style="width: 250px; height: 250px; object-fit: contain;">
+                        </div>
+                        <div class="ms-3 text-start">
+                            <a href="#" class="mb-1 small fw-semibold">Nike Air Max Unisex SYSTM Men Sneaker Shoes</a>
+                            <h6 class="fw-bold mb-1">$148</h6>
+                            <div style="color: #000; font-size: 12px;">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col border-end border-bottom p-4">
+                    <div class="d-flex align-items-center">
+                        <img src="images/fashion-9-300x300.jpg" class="img-fluid"
+                            style="width: 200px; height: 200px; object-fit: contain;">
+                        <div class="ms-3 text-start">
+                            <a href="#" class="mb-1 small fw-semibold">100% UV Protected Sunglasses For Men</a>
+                            <h6 class="fw-bold mb-1">$123</h6>
+                            <div style="color: #000; font-size: 12px;">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col border-end border-bottom p-4">
+                    <div class="d-flex align-items-center">
+                        <img src="images/fashion-6-300x300.jpg" class="img-fluid"
+                            style="width: 200px; height: 200px; object-fit: contain;">
+                        <div class="ms-3 text-start">
+                            <a href="#" class="mb-1 small fw-semibold">LV Women Leather Accent Denim Mini Skirt</a>
+                            <h6 class="fw-bold mb-1">$1,390</h6>
+                            <div style="color: #000; font-size: 12px;">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-regular fa-star text-muted"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col border-end border-bottom p-4">
+                    <div class="d-flex align-items-center">
+                        <img src="images/fashion-16-300x300.jpg" class="img-fluid"
+                            style="width: 200px; height: 200px; object-fit: contain;">
+                        <div class="ms-3 text-start">
+                            <a href="#" class="mb-1 small fw-semibold">A Different Christmas Knit Holiday Sweater</a>
+                            <h6 class="fw-bold mb-1">$50 - $65</h6>
+                            <div style="color: #000; font-size: 12px;">
+                                <i class="fa-regular fa-star text-muted"></i><i
+                                    class="fa-regular fa-star text-muted"></i><i
+                                    class="fa-regular fa-star text-muted"></i><i
+                                    class="fa-regular fa-star text-muted"></i><i
+                                    class="fa-regular fa-star text-muted"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col border-end border-bottom p-4">
+                    <div class="d-flex align-items-center">
+                        <img src="images/fashion-1-300x300.jpg" class="img-fluid"
+                            style="width: 200px; height: 200px; object-fit: contain;">
+                        <div class="ms-3 text-start">
+                            <a href="#" class="mb-1 small fw-semibold">Winter New Jacket Loose Retro American Campus</a>
+                            <h6 class="fw-bold mb-1">$160</h6>
+                            <div style="color: #000; font-size: 12px;">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col border-end border-bottom p-4">
+                    <div class="d-flex align-items-center">
+                        <img src="images/fashion-3-300x300.jpg" class="img-fluid"
+                            style="width: 200px; height: 200px; object-fit: contain;">
+                        <div class="ms-3 text-start">
+                            <a href="#" class="mb-1 small fw-semibold">Winter Hats with Top Ball Custom Design</a>
+                            <h6 class="fw-bold mb-1">$17</h6>
+                            <div style="color: #000; font-size: 12px;">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="hero-section d-flex align-items-center mb-4">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-center "
+                    style="background-color: rgb(193, 186, 186);">
+
+                    <div class="col-lg-6 text-center position-relative d-flex align-items-center justify-content-center"
+                        style="min-height: 600px;">
+
+                        <h1 class="big-text position-absolute display-1 fw-bolder  opacity-25 z-3 pe-none mt-5"
+                            style="font-size: 10rem; letter-spacing: 1px;">
+                            Hoodie
+                        </h1>
+
+                        <img src="images/slide-hoodie-1.png" id="mainProductImg"
+                            class="img-fluid product-img position-relative z-1" alt="hoodie">
+
+                        <div class="discount position-absolute bg-danger text-white rounded-circle d-flex align-items-center justify-content-center fw-bold z-3 video-badge-animation"
+                            style="top: 15%; right: 15%; width: 70px; height: 70px; font-size: 1.2rem;">
+                            -30%
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 p-5">
+                        <div class="product-card">
+                            <h1 class="fw-bold mb-4" style="font-size: 30px;">Athletics Embroidered<br>Relaxed
+                                Hoodie</h1>
+
+                            <div class="mb-4">
+                                <p><i class="fa-solid fa-check text-success me-2"></i>64% cotton, 36% polyester</p>
+                                <p><i class="fa-solid fa-check text-success me-2"></i>Do not dry clean</p>
+                                <p><i class="fa-solid fa-check text-success me-2"></i>Machine wash</p>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center gap-3 mb-4">
+                                <h2 class="fw-bold mb-0">$89</h2>
+                                <span class="text-muted text-decoration-line-through">$120</span>
+                            </div>
+
+                            <div class="d-flex gap-3 mb-5">
+                                <img src="images/slide-hoodie-1.png" class="color-img border active"
+                                    data-src="images/slide-hoodie-1.png" style="width: 70px; cursor: pointer;">
+                                <img src="images/slide-hoodie-2.png" class="color-img border"
+                                    data-src="images/slide-hoodie-2.png" style="width: 70px; cursor: pointer;">
+                                <img src="images/slide-hoodie-3.png" class="color-img border"
+                                    data-src="images/slide-hoodie-3.png" style="width: 70px; cursor: pointer;">
+                                <img src="images/slide-hoodie-4.png" class="color-img border"
+                                    data-src="images/slide-hoodie-4.png" style="width: 70px; cursor: pointer;">
+                            </div>
+
+                            <button class="btn btn-dark w-100 py-3 fw-bold rounded-0">BUY NOW</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="container mt-5">
+            <div class="d-flex justify-content-between align-items-center mb-3 mt-5">
+                <div class="d-flex align-items-center gap-4">
+                    <h3 class=" mb-0">Best Selling</h3>
+                </div>
+
+                <div>
+                    <a href="#" class="text-dark text-decoration-underline small fw-bold">See All Products</a>
+                </div>
+            </div>
+
+            <div id="flashDealsCarousel" class="carousel slide border" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex">
+                            <div class="col-12 col-md-3 border-end p-3 position-relative">
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-3">-35%</span>
+                                <div class="text-center py-4">
+                                    <img src="images/electronic-30-6-300x300.jpg" class="img-fluid"
+                                        style="height: 150px; object-fit: contain;">
+                                </div>
+                                <a class="small mb-1 text-dark text-decoration-none">Labtop Asus VivoBook 15 <br>1335U,
+                                    8GB
+                                    RAM...</a>
+                                <br>
+                                <span class="fw-bold">$999</span>
+                                <del class="text-muted small">$1,536</del>
+                                <br>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star-half"></i>
+                            </div>
+
+                            <div class="col-12 col-md-3 border-end p-3 d-none d-md-block position-relative">
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-3">-6%</span>
+                                <div class="text-center py-4">
+                                    <img src="images/electronic-14-2-300x300.jpg" class="img-fluid"
+                                        style="height: 150px; object-fit: contain;">
+                                </div>
+                                <a class="small mb-1">Apple Watch Series 9 GPS <br> 45mm,Aluminium case with..</a>
+                                <br>
+                                <span class="fw-bold">$890</span>
+                                <del class="text-muted small">$950</del>
+                                <br>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star-half"></i>
+                            </div>
+
+                            <div class="col-12 col-md-3 border-end p-3 d-none d-md-block position-relative">
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-3">-8%</span>
+                                <div class="text-center py-4">
+                                    <img src="images/automotive-11-300x300.jpg" class="img-fluid"
+                                        style="height: 150px; object-fit: contain;">
+                                </div>
+                                <a class="small mb-1">TOOLS 34 Low Profile Hydraulic <br> Trolley</a>
+                                <br>
+                                <span class="fw-bold">$767</span>
+                                <del class="text-muted small">$837</del>
+                                <br>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+
+                            <div class="col-12 col-md-3 p-3 d-none d-md-block position-relative">
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-3">-33%</span>
+                                <div class="text-center py-4">
+                                    <img src="images/furniture-6-300x300.jpg" class="img-fluid"
+                                        style="height: 150px; object-fit: contain;">
+                                </div>
+                                <a class="small mb-1">14-inch Fashion Simplicity <br> Quality Wall Clock, Home Decor</a>
+                                <br>
+                                <span class="fw-bold">$50</span>
+                                <del class="text-muted small">$75</del>
+                                <br>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex">
+                            <div class="col-12 col-md-3 border-end p-3 text-start position-relative">
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-3">-37%</span>
+                                <img src="images/cosmetics-33-300x300.jpg" class="img-fluid d-block mx-auto"
+                                    style="height: 150px; object-fit: contain;">
+                                <br><br>
+                                <a>Translucent Compact Face <br> Powder - 03 Medium, 0.22 oz</a>
+                                <br>
+                                <span class="fw-bold">$9</span>
+                                <del class="text-muted small">$14</del>
+                                <br>
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i><i
+                                    class="fa-regular fa-star"></i>
+                            </div>
+
+                            <div class="col-12 col-md-3 border-end p-3 text-start position-relative">
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-3">-17%</span>
+
+                                <img src="images/cosmetics-40-1-300x300.jpg" class="img-fluid d-block mx-auto"
+                                    style="height: 150px; object-fit: contain;">
+
+                                <br>
+                                <br>
+                                <a class="mt-2">Allure Luminous Intense Lipstack <br>0.15oz </a>
+                                <br>
+                                <span class="fw-bold">$20</span>
+                                <del class="text-muted small">$24</del>
+                                <br>
+
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+
+                            </div>
+
+                            <div class="col-12 col-md-3 border-end p-3 text-start position-relative">
+
+                                <img src="images/fashion-10-1-300x300.jpg" class="img-fluid d-block mx-auto"
+                                    style="height: 150px; object-fit: contain;">
+
+                                <br>
+                                <br>
+                                <a class="mt-2">Tonga on T-shirt Men,<br>
+                                    Woman short sleeves Tee</a>
+                                <br>
+
+                                <span class="fw-bold">$9</span>
+                                <del class="text-muted small">$14</del>
+                                <br>
+
+
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+
+
+                            <div class="col-12 col-md-3 border-end p-3 text-start position-relative">
+                                <span class="badge bg-danger position-absolute top-0 start-0 m-3">-37%</span>
+
+                                <img src="images/cosmetic-2-300x300.jpg" class="img-fluid d-block mx-auto"
+                                    style="height: 150px; object-fit: contain;">
+
+                                <br>
+                                <br>
+                                <a class="mt-2">MakeUp Brushes Artisan Easel <br>
+                                    Elite Cosmatic</a>
+                                <br>
+                                <span class="fw-bold">$19</span> <del class="text-muted small">$30</del>
+                                <br>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#flashDealsCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#flashDealsCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="container my-5">
+
+            <h2 class="fw-bold mb-4">From Our Blog</h2>
+
+            <div id="blogCarousel" class="carousel slide position-relative">
+
+                <div class="carousel-inner">
+
+
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-lg-4">
+                                <div class="card border-0">
+
+                                    <div class="overflow-hidden rounded-4">
+                                        <img src="images/blog-6.jpg" class="card-img-top w-100"
+                                            style="height:360px; object-fit:cover; transition:.4s;"
+                                            onmouseover="this.style.transform='scale(1.06)'"
+                                            onmouseout="this.style.transform='scale(1)'">
+                                    </div>
+
+                                    <div class="card-body px-0">
+                                        <div class="small mb-2">
+                                            <a> ELECTRONICS </a><span class="mx-2">—</span> By <a>Myoui Mina</a>
+                                        </div>
+
+                                        <a class="fw-bold medium " style="font-size: 20px;">10 Things To Learn from
+                                            Apple's
+                                            Marketing<br> Strategy
+                                        </a>
+
+                                        <p class="text-muted">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+
+                                        <button class="btn btn-outline-dark fw-bold px-4">
+                                            READ MORE
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-4">
+                                <div class="card border-0">
+
+                                    <div class="overflow-hidden rounded-4">
+                                        <img src="images/blog-1.jpg" class="card-img-top w-100"
+                                            style="height:360px; object-fit:cover; transition:.4s;"
+                                            onmouseover="this.style.transform='scale(1.06)'"
+                                            onmouseout="this.style.transform='scale(1)'">
+                                    </div>
+
+                                    <div class="card-body px-0">
+                                        <div class="small text-uppercase mb-2">
+                                            <a>
+                                                Cosmetics</a> <span class="mx-2">—</span> By <a>Myoui Mina
+                                            </a>
+                                        </div>
+
+                                        <a class="fw-bold" style="font-size: 20px;">
+                                            Weekday Outfit Inspiration for <br>All Occasions
+                                        </a>
+
+                                        <p class="text-muted">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+
+                                        <button class="btn btn-outline-dark fw-bold px-4">
+                                            READ MORE
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-4">
+                                <div class="card border-0">
+
+                                    <div class="overflow-hidden rounded-4">
+                                        <img src="images/blog-2.jpg" class="card-img-top w-100"
+                                            style="height:360px; object-fit:cover; transition:.4s;"
+                                            onmouseover="this.style.transform='scale(1.06)'"
+                                            onmouseout="this.style.transform='scale(1)'">
+                                    </div>
+
+                                    <div class="card-body px-0">
+                                        <div class="small text-uppercase text-muted mb-2">
+                                            <a> Autoparts</a> <span class="mx-2">—</span> By <a> Myoui Mina</a>
+                                        </div>
+
+                                        <a class="fw-bold" style="font-size: 20px;">
+                                            The Best Affordable Convertible Cars to Rent
+                                        </a>
+
+                                        <p class="text-muted">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+
+                                        <button class="btn btn-outline-dark fw-bold px-4">
+                                            READ MORE
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="row g-4">
+
+                            <div class="col-lg-4">
+                                <div class="card border-0">
+                                    <div class="overflow-hidden rounded-4">
+                                        <img src="images/blog-3.jpg" class="card-img-top w-100"
+                                            style="height:360px; object-fit:cover; transition:.4s;"
+                                            onmouseover="this.style.transform='scale(1.06)'"
+                                            onmouseout="this.style.transform='scale(1)'">
+                                    </div>
+                                    <div class="card-body px-0">
+                                        <div class="small text-muted mb-2">
+                                            <a> ELECTRONICS </a><span class="mx-2">—</span> By <a>Myoui Mina</a>
+                                        </div>
+                                        <a class="fw-bold">Tips for Cleaning Desktop & Laptop</a>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                                        <button class="btn btn-outline-dark fw-bold px-4">READ MORE</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="card border-0">
+                                    <div class="overflow-hidden rounded-4">
+                                        <img src="images/blog-4.jpg" class="card-img-top w-100"
+                                            style="height:360px; object-fit:cover; transition:.4s;"
+                                            onmouseover="this.style.transform='scale(1.06)'"
+                                            onmouseout="this.style.transform='scale(1)'">
+                                    </div>
+                                    <div class="card-body px-0">
+                                        <div class="small text-muted mb-2">
+                                            <a> ELECTRONICS </a><span class="mx-2">—</span> By <a>Myoui Mina</a>
+                                        </div>
+                                        <a class="fw-bold">Giorgio Armani Si Intense Eau</a>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                                        <button class="btn btn-outline-dark fw-bold px-4">READ MORE</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="card border-0">
+                                    <div class="overflow-hidden rounded-4">
+                                        <img src="images/blog-5-1.jpg" class="card-img-top w-100"
+                                            style="height:360px; object-fit:cover; transition:.4s;"
+                                            onmouseover="this.style.transform='scale(1.06)'"
+                                            onmouseout="this.style.transform='scale(1)'">
+                                    </div>
+                                    <div class="card-body px-0">
+                                        <div class="small text-muted mb-2">
+                                            <a> ELECTRONICS </a><span class="mx-2">—</span> By <a>Myoui Mina</a>
+                                        </div>
+                                        <a class="fw-bold">The Best Affordable Convertible Cars to Rent</a>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                                        <button class="btn btn-outline-dark fw-bold px-4">READ MORE</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="row g-4">
+
+                            <div class="col-lg-4">
+                                <div class="card border-0">
+                                    <div class="overflow-hidden rounded-4">
+                                        <img src="images/blog-6.jpg" class="card-img-top w-100"
+                                            style="height:360px; object-fit:cover;">
+                                    </div>
+                                    <div class="card-body px-0">
+                                        <div class="small text-muted mb-2">
+                                            Lifestyle — By Author
+                                        </div>
+                                        <h3 class="fw-bold">Daily Productivity Tips</h3>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                                        <button class="btn btn-outline-dark fw-bold px-4">READ MORE</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="card border-0">
+                                    <div class="overflow-hidden rounded-4">
+                                        <img src="images/blog-1.jpg" class="card-img-top w-100"
+                                            style="height:360px; object-fit:cover;">
+                                    </div>
+                                    <div class="card-body px-0">
+                                        <div class="small text-muted mb-2">
+                                            Beauty — By Author
+                                        </div>
+                                        <h3 class="fw-bold">Skincare Routine Guide</h3>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                                        <button class="btn btn-outline-dark fw-bold px-4">READ MORE</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="card border-0">
+                                    <div class="overflow-hidden rounded-4">
+                                        <img src="images/blog-2.jpg" class="card-img-top w-100"
+                                            style="height:360px; object-fit:cover;">
+                                    </div>
+                                    <div class="card-body px-0">
+                                        <div class="small text-muted mb-2">
+                                            Cars — By Author
+                                        </div>
+                                        <h3 class="fw-bold">Top Cars in 2026</h3>
+                                        <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                                        <button class="btn btn-outline-dark fw-bold px-4">READ MORE</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <button class="carousel-control-prev justify-content-start" type="button" data-bs-target="#blogCarousel"
+                    data-bs-slide="prev" style="width:60px; left:-40px;">
+
+                    <span class="bg-white shadow rounded-3 d-flex align-items-center justify-content-center"
+                        style="width:55px; height:65px;">
+                        <i class="fa-solid fa-chevron-left text-dark"></i>
+                    </span>
+
+                </button>
+
+
+                <button class="carousel-control-next justify-content-end" type="button" data-bs-target="#blogCarousel"
+                    data-bs-slide="next" style="width:60px; right:-40px;">
+
+                    <span class="bg-white shadow rounded-3 d-flex align-items-center justify-content-center"
+                        style="width:55px; height:65px;">
+                        <i class="fa-solid fa-chevron-right text-dark"></i>
+                    </span>
+
+                </button>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="container-fluid p-0 " style="background-color: #EBEEF0;">
+            <div class="row justify-content-center">
+                <div class="col-md-5 text-center ">
+
+                    <h2 class="fw-bold mb-4 mt-5">Looking for something else?</h2>
+
+                    <div class="input-group mb-4 shadow-sm">
+                        <input type="text" class="form-control border-0 py-3 ps-4" placeholder="Search for products..."
+                            aria-label="Search">
+                        <button class="btn btn-dark px-4" type="button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="mb-5">
+                        <div class="d-flex flex-wrap justify-content-center align-items-center text-secondary">
+                            <a href="#" class="text-decoration-none text-dark mx-2">smartphone</a>
+                            <span class="text-muted">|</span>
+                            <a href="#" class="text-decoration-none text-dark mx-2">tablet</a>
+                            <span class="text-muted">|</span>
+                            <a href="#" class="text-decoration-none text-dark mx-2">controller</a>
+                            <span class="text-muted">|</span>
+                            <a href="#" class="text-decoration-none text-dark mx-2">furniture</a>
+                            <span class="text-muted">|</span>
+                            <a href="#" class="text-decoration-none text-dark mx-2">laptop</a>
+                            <span class="text-muted">|</span>
+                            <a href="#" class="text-decoration-none text-dark mx-2">playstation</a>
+                        </div>
+
+                        <div class="d-flex flex-wrap justify-content-center align-items-center text-secondary ">
+                            <a href="#" class="text-decoration-none text-dark mx-2">womens fashion</a>
+                            <span class="text-muted">|</span>
+                            <a href="#" class="text-decoration-none text-dark mx-2">home & decor</a>
+                            <span class="text-muted">|</span>
+                            <a href="#" class="text-decoration-none text-dark mx-2">camera</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer class=" text-white pt-5" style="background-color: #0A0C0D;">
+
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3">
+
+                    <h2 class="fw-bold">Merto</h2> <!-- logo img-->
+
+
+                    <p class=" mt-3" style="color: grey;">
+                        <i class="fa-solid fa-location-dot me-2"></i>
+                        29 SE 2nd Ave, Miami Florida 33131, United States
+                    </p>
+                    <p style="color: grey;">
+                        <i class="fa-solid fa-envelope me-2"></i>
+                        info@example.com
+                    </p>
+                    <h5 class="fw-bold mt-3">
+                        (+92) 3942 7879
+                    </h5>
+
+                </div>
+
+
+                <div class="col-lg-2">
+                    <h6 class="fw-bold mb-3">SHOPPING</h6>
+                    <ul class="list-unstyled ">
+                        <li class="mb-2">Wishlist</li>
+                        <li class="mb-2">Shop by Brand</li>
+                        <li class="mb-2">Offers</li>
+                        <li class="mb-2">Track order</li>
+                        <li class="mb-2">Size Guide</li>
+                    </ul>
+                </div>
+
+
+                <div class="col-lg-2">
+                    <h6 class="fw-bold mb-3">INFORMATION</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">Track Order</li>
+                        <li class="mb-2">Shipping & Returns</li>
+                        <li class="mb-2">About us</li>
+                        <li class="mb-2">Help</li>
+                        <li class="mb-2">Gift Cards</li>
+                    </ul>
+                </div>
+
+
+                <div class="col-lg-2">
+                    <h6 class="fw-bold mb-3">ACCOUNT</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">Cart</li>
+                        <li class="mb-2">My account</li>
+                        <li class="mb-2">My orders</li>
+                        <li class="mb-2">Wishlist</li>
+                        <li class="mb-2">Affiliate Program</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3">
+                    <h6 class="fw-bold mb-3 text-white">Let's keep in touch</h6>
+
+                    <style>
+                        #emailInput::placeholder {
+                            color: #adb5bd !important;
+                            opacity: 1 !important;
+                        }
+                    </style>
+
+                    <form id="subscribeForm">
+                        <div class="input-group mb-3">
+                            <input type="email" id="emailInput"
+                                class="form-control border-secondary text-white bg-transparent"
+                                placeholder="enter your email address" required>
+
+                            <button type="submit" class="btn btn-light">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </form>
+
+
+
+
+                    <div class="d-flex gap-3 fs-5 mt-3">
+
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid d-flex flex-column align-items-center mt-5">
+
+            <div class="col-11 col-xl-10 border border-secondary border-opacity-25 rounded-3 p-4 mb-4">
+                <div class="row g-4 align-items-center">
+
+                    <div class="col-md-4 d-flex gap-3 align-items-center">
+                        <i class="fa-solid fa-phone fs-4 text-white" style="transform: rotate(-10deg);"></i>
+                        <div>
+                            <h6 class="fw-bold text-white mb-1 small">Didn't find what you were looking for?</h6>
+                            <a href="contactUs.html"
+                                class="text-white text-decoration-underline small opacity-75">Contact Us</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 d-flex gap-3 align-items-center">
+                        <i class="fa-regular fa-face-smile fs-4 text-white"></i>
+                        <div>
+                            <h6 class="fw-bold text-white mb-1 small">How can we help you today?</h6>
+                            <a href="#" class="text-white text-decoration-underline small opacity-75">Help Center</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 d-flex gap-3 align-items-center">
+                        <i class="fa-regular fa-life-ring fs-4 text-white"></i>
+                        <div>
+                            <h6 class="fw-bold text-white mb-1 small">We'd love to hear what you think!</h6>
+                            <a href="#" class="text-white text-decoration-underline small opacity-75">Give Feedback</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div
+                class="col-11 col-xl-10 d-flex flex-column flex-md-row justify-content-between align-items-center pt-2">
+
+                <p class="mb-3 mb-md-0 text-secondary small opacity-50">
+                    Copyright © Merto. All Rights Reserved
+                </p>
+
+                <div class="d-flex gap-2 align-items-center text-white">
+                    <i class="fa-brands fa-cc-paypal fs-2"></i>
+                    <i class="fa-brands fa-cc-apple-pay fs-2"></i>
+                    <i class="fa-brands fa-cc-visa fs-2"></i>
+                    <i class="fa-brands fa-cc-discover fs-2"></i>
+                    <i class="fa-brands fa-cc-jcb fs-2"></i>
+                    <i class="fa-brands fa-cc-amazon-pay fs-2"></i>
+                    <i class="fa-brands fa-cc-amex fs-2"></i>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+</body>
+
+</html>
